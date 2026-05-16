@@ -3,6 +3,6 @@ use utils::say;
 use utils::cast;
 
 fn main() {
-    say::hello();
-    cast::cast();
+    say::hello(None);
+    cast::cast(Some("Care".to_string()));
 }
