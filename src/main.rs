@@ -1,5 +1,8 @@
 mod utils;
+use utils::say;
+use utils::cast;
 
 fn main() {
-    utils::hello();
+    say::hello();
+    cast::cast();
 }
